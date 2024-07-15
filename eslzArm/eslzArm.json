@@ -1870,14 +1870,14 @@
         // Declaring deterministic names for Resource Groups that will be created for platform resources
         "platformRgNames": {
             "mgmtRg": "rg-prod-shared-001",
-            "connectivityRg": "rg-prod-networking-001",
+            "connectivityRg": "rg-prod-network-001",
             "connectivityRgSecondary": "rg-prod-networking-002",
             "ddosRg": "rg-prod-ddos-001",
             "privateDnsRg": "rg-prod-networkingDns-001",
             "privateDnsRg2": "rg-prod-networkingDns-002",
             "identityVnetRg": "rg-prod-networking-001",
             "identityVnetRgSecondary": "rg-prod-networking-002",
-            "lzVnetRg": "rg-prod-networking-001"
+            "lzVnetRg": "rg-prod-network-001"
         },
         // Declaring deterministic names for platform resources that will be created
         "platformResourceNames": {
@@ -1894,7 +1894,7 @@
             "azFwName": "azfw-prod-nch-001",
             "azFwNameSecondary": "azfw-prod-weu-001",
             "azErGwIpName": "pip-prod-erGw-001",
-            "hubName": "vnet-prod-nch-hub-001",
+            "hubName": "vnet-prod-hub-001",
             "hubNameSecondary": "vnet-prod-weu-hub-001",
             "vwanName": "vwan-prod-nch-001",
             "azVpnGwIpName": "pip-prod-vpnGwIp-001",
