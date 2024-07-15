@@ -46,8 +46,8 @@
         }
     },
     "variables": {
-        "rgName": "[concat(parameters('topLevelManagementGroupPrefix'), '-fwBasePolicy-', parameters('location'))]",
-        "azFwPolicyName": "[concat(parameters('topLevelManagementGroupPrefix'), '-azfwpolicy-base-', parameters('location'))]",
+        "rgName": "rg-prod-network-002",
+        "azFwPolicyName": "fwp-prod-001",
         "resourceDeploymentName": "[take(concat(deployment().name, '-azfwpolicy-base-', parameters('location')), 64)]",
         "azFirewallPolicyId": {
             "id": "[concat('/subscriptions/', parameters('connectivitySubscriptionId'), '/resourceGroups/', variables('rgName'), '/providers/Microsoft.Network/firewallPolicies/', variables('azFwPolicyName'))]"
